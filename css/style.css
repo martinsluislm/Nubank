@@ -1,0 +1,668 @@
+body h1, h2, h3, p, ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo {
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+.menu {
+    top: 0;
+    width: 100%;
+    height: 20px;
+    background-color: white;
+    padding: 20px 0px 50px 50px;
+    position: fixed;
+    
+}
+
+.menu-nubank {
+    max-width: 100%;
+    float: left;
+}
+
+.menu-nubank li {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.fas {
+    margin-left: 5px;
+}
+
+.menu-nubank a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    margin-left: 33px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.login {
+    float: right;
+}
+
+.login li {
+    display: inline-block;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 80px;
+    margin-top: 10px;
+}
+
+.login a {
+    text-decoration: none;
+    color: #820ad1;
+}
+
+/* Início da imagem após o topo */
+.imagem {
+    background: url('../img/img1.png') no-repeat center center;
+    background-size: cover;
+    height: 865px;
+}
+
+.imagem h1 {
+    padding: 370px 0 0 0;
+    margin-left: 220px;
+    margin-bottom: 10px;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.imagem h2 {
+    margin-left: 220px;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.form {
+    box-sizing: border-box;
+    background: white;
+    max-width: 330px;
+    height: 300px;
+    float: right;
+    border-radius: 8px;
+    text-align: left;
+    padding: 20px;
+    margin-top: -205px;
+    margin-right: 40px;
+}
+
+.form h3 {
+    color: black;
+    font-size: 22px;
+    margin-bottom: 80px;
+}
+
+.name {
+    color: #585858;
+    font-size: 20px;
+}
+
+.bto {
+    background: #820ad1;
+    display: flex;
+    justify-content: space-between;
+    border: 0px;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.campo {
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+/* Fim da imagem após o topo */
+
+/* Inicio seção 2 */
+.secao2 {
+    height: 800px;
+    background: white;
+}
+
+.secao2 h2 {
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: 48px;
+    margin-left: 350px;
+    margin-top: 270px;
+}
+
+.secao2 h2 a {
+    text-decoration: none;
+    color: #820ad1;
+}
+
+.secao2 h3 {
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: 38px;
+    font-weight: lighter;
+    color: black;
+    margin-left: 350px;
+    margin-bottom: 23px;
+}
+
+.img-cartao {
+    float: left;
+    width: 45%;
+    margin-top: 200px;
+}
+
+.cartao {
+    float: left;
+    width: 55%;
+}
+
+.link2 {
+    margin-left: 350px;
+    text-decoration: none;
+    color: #820ad1;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+/* Final da seção 2 */
+
+/* Inicio da seção 3 */
+.secao3 {
+    height: 800px;
+    background: #f5f5f5;
+}
+
+.secao3 h2 {
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: 48px;
+    color: #820ad1;
+    margin-left: 175px;
+}
+
+.secao3 h2 a {
+    text-decoration: none;
+}
+
+.secao3 h3 {
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: 38px;
+    font-weight: lighter;
+    color: black;
+    margin-left: 175px;
+    margin-bottom: 23px;
+}
+
+.link3 {
+    margin-left: 200px;
+    text-decoration: none;
+    color: #820ad1;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.cartao-ultra {
+    width: 45%;
+    float: left;
+    margin-top: 350px;
+}
+
+.cartao-3 {
+    float: left;
+    margin-top: 200px;
+    margin-left: 140px;
+}
+/* Final da seção 3*/
+
+
+/* Inicio da seção 4 */
+.secao4 {
+    height: 800px;
+    background: #f5f5f5;
+}
+
+.secao4 h2 {
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: 48px;
+    color: #820ad1;
+    margin-left: 250px;
+}
+
+.secao4 h2 a {
+    text-decoration: none;
+}
+
+.secao4 h3 {
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: 38px;
+    font-weight: lighter;
+    color: black;
+    margin-left: 250px;
+    margin-bottom: 23px;
+}
+
+.link4 {
+    margin-left: 250px;
+    text-decoration: none;
+    color: #820ad1;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.cartao-conta {
+    width: 55%;
+    float: left;
+    margin-top: 350px;
+}
+
+.cartao-4 {
+    float: left;
+    margin-top: 300px;
+}
+/* Final da seção 4 */
+
+
+/* Inicio da seção 5, 6 e 7 */
+.secao5 {
+    background: url('../img/img5.png') no-repeat center center;
+    background-size: cover;
+    height: 750px;
+}
+
+.secao5 h2 {
+    padding: 250px 0 0 0;
+    margin-left: 320px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+
+.link5 {
+    margin-left: 320px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.secao6 {
+    background: url('../img/img6.png') no-repeat center center;
+    background-size: cover;
+    height: 750px;
+}
+
+.secao6 h2 {
+    padding: 250px 0 0 0;
+    margin-left: 320px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+
+.link6 {
+    margin-left: 320px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.secao7 {
+    background: url('../img/img7.png') no-repeat center center;
+    background-size: cover;
+    height: 750px;
+}
+
+.secao7 h2 {
+    padding: 250px 0 0 0;
+    margin-left: 320px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+
+.link7 {
+    margin-left: 320px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+/* Fim da seção 5, 6 e 7 */
+
+/* Inicio Rodape 1 */
+    .rodape1 {
+        width: 100%;
+        height: 550px;
+        background-color: #111111;
+    }
+
+    .rodape2 {
+        width: 100%;
+        height: 550px;
+        background-color: #111111;
+    }
+
+    .sec-1 {
+        width: 23%;
+        float: left;
+    }
+    .sec-2 {
+        width: 23%;
+        float: left;
+    }
+    .sec-3 {
+        width: 23%;
+        float: left;
+    }
+    .sec-4 {
+        width: 23%;
+        float: left;
+    }
+
+    .sec-1, .sec-2, .sec-3, .sec-4 {
+        margin-top: 150px;
+    }
+
+    .sec-1 a, .sec-2 a, .sec-3 a, .sec-4 a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Cabin', sans-serif;
+        font-size: 16px;
+        font-weight: lighter;
+    }
+
+    .sec-1 li, .sec-2 li, .sec-3 li, .sec-4 li {
+        padding-left: 8%;
+        list-style: none;
+        margin-bottom: 15px;
+    }
+
+    .sec-1 h2, .sec-2 h2, .sec-3 h2, .sec-4 h2 {
+        font-family: 'Cabin', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        padding-left: 8%;
+        color: white;
+        margin-bottom: 35px;
+    }
+
+    .sec-1 li a:hover {
+        color: #820ad1;
+    }
+    .sec-2 li a:hover {
+        color: #820ad1;
+    }
+    .sec-3 li a:hover {
+        color: #820ad1;
+    }
+    .sec-4 li a:hover {
+        color: #820ad1;
+    }
+/* Fim Rodape 1 */
+
+/* Início Rodape 3 */
+    .rodape3 {
+        width: 100%;
+        height: 150px;
+        background-color: #111111;border-top: solid 1px #191919;
+    }
+
+    .imgrodape {
+        padding: 30px;
+        float: left;
+    }
+
+    .rodape3 p {
+        font-family: 'Cabin', sans-serif;
+        font-size: 16px;
+        color: white;
+        padding: 30px;
+        float: left;
+    }
+
+    .redes {
+        float: right;
+        list-style: none;
+    }
+
+    .redes li {
+        display: inline-block;
+        padding-right: 30px;
+    }
+
+    .redes li a {
+        color: white;
+    }
+
+    .redes li a:hover {
+        color: #820ad1;
+    }
+/* Fim Rodape 3 */
+
+/* Início da seção mobile */
+
+@media only screen and (max-width: 576px) { 
+    .menu-nubank {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .menu-mobile {
+        color: #820ad1;
+        display: block;
+        float: right;
+        padding-right: 70px;
+        margin-top: 8px;
+    }
+
+    .imagem {
+        background: url('../img/responsivo1.png') no-repeat center center;
+        max-height: 25%;
+        background-size: cover;
+        height: 1100px;
+    }
+
+    .form {
+        margin-top: 70px;
+        margin-left: 100px;
+        position: absolute;
+    }
+
+    .imagem h1 {
+        margin-left: 45px;
+        font-size: 35px;
+        white-space: nowrap;
+    }
+
+    .imagem h2 {
+        margin-left: 45px;
+        font-size: 21px;
+        white-space: nowrap;
+    }
+
+    .secao2 {
+        height: 800px;
+    }
+
+    .cartao h2 {
+        margin-top: 50px;
+        margin-left: 45px;
+        font-size: 40px;
+        width: 576px;
+    }
+
+    .cartao h3 {
+        margin-left: 45px;
+        font-size: 30px;
+        white-space: nowrap;
+        width: 576px;
+    }
+    
+    .link2 {
+        margin-left: 45px;
+    }
+
+    .img-cartao {
+        clear: both;
+        margin-top: 40px;
+        margin-left: 45px;
+    }
+
+    .cartao-ultra h2 {
+        margin-top: -150px;
+        margin-left: 45px;
+        font-size: 40px;
+        width: 576px;
+    }
+
+    .cartao-ultra h3 {
+        margin-left: 45px;
+        font-size: 30px;
+        white-space: nowrap;
+        width: 576px;
+    }
+
+    .link3 {
+        margin-left: 45px;
+    }
+
+    .cartao-3 {
+        margin-top: 0px;
+        margin-left: 45px;
+        max-width: 576px;
+        max-height: 400px;
+    }
+    
+    .secao4 {
+        height: 1000px;
+    }
+
+    .secao4 h2 {
+        margin-top: -150px;
+        margin-left: 45px;
+        font-size: 40px;
+        width: 576px;
+    }
+
+    .secao4 h3 {
+        margin-left: 45px;
+        font-size: 30px;
+        white-space: nowrap;
+        width: 576px;
+    }
+
+    .link4 {
+        margin-left: 45px;
+        white-space: nowrap;
+    }
+
+    .cartao-4 {
+        margin-top: 20px;
+        margin-left: 45px;
+        max-width: 576px;
+        max-height: 380px;
+    }
+
+    .secao5 {
+        background: url('../img/responsivo2.png') no repeat center center;
+        background-size: cover;
+    }
+
+    .secao6 {
+        background: url('../img/responsivo3.png') no repeat center center;
+        background-size: cover;
+    }
+
+    .secao7 {
+        background: url('../img/responsivo4.png') no repeat center center;
+        background-size: cover;
+    }
+
+    .secao5 h2 {
+        font-size: 38px;
+        margin-left: 45px;
+    }
+
+    .link5 {
+        margin-left: 45px;
+    }
+
+    .secao6 h2 {
+        font-size: 38px;
+        margin-left: 45px;
+    }
+
+    .link6 {
+        margin-left: 45px;
+    }
+
+    .secao7 h2 {
+        font-size: 38px;
+        margin-left: 45px;
+    }
+
+    .link7 {
+        margin-left: 45px;
+    }
+
+    .rodape2 {
+        height: 2200px;
+    }
+
+    .sec-1 {
+        width: 100%;
+        margin-top: 80px;
+    }
+    
+
+    .sec-2 {
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .sec-3 {
+        width: 100%;
+        margin-top: 80px;
+    }
+    
+
+    .sec-4 {
+        width: 100%;
+        margin-top: 78px;
+    }
+
+    .rodape3 img {
+        height: 30px;
+        margin-top: -100px;
+
+    }
+
+
+
+}
+
+
